@@ -1,0 +1,8 @@
+<svg width="1440" height="731" viewBox="0 0 1440 731" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Define the mask -->
+    <mask id="mask0" x="0" y="0" width="1440" height="731" fill="white">
+      <path d="M0 730.5L1439.52 591.458L1440 0L0 176.472V730.5Z" fill="black" />
+    </mask>
+  </defs>
+</svg>
