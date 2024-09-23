@@ -1,0 +1,42 @@
+.button {
+	cursor: pointer;
+	border: 1px solid var(--primary-purple);
+	border-radius: 23px;
+	padding: 12px 24px;
+	line-height: 1;
+	@include flex-center;
+
+	background: var(--white);
+	transition: all 0.2s ease-in;
+
+	font-family: var(--font-main);
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--primary-purple);
+
+	&:hover {
+		background: var(--primary-purple);
+		color: var(--white);
+	}
+
+	&--hero {
+		border: none;
+		background: var(--primary-purple);
+		color: var(--white);
+
+		&:hover {
+			background: var(--white);
+			color: var(--primary-purple);
+		}
+	}
+	&--not-border {
+		border: none;
+		color: var(--primary-purple);
+		background: var(--white);
+
+		&:hover {
+			background: var(--primary-purple);
+			color: var(--white);
+		}
+	}
+}

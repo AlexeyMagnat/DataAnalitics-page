@@ -1,0 +1,43 @@
+.section-steps {
+	margin-bottom: 120px;
+}
+
+.section-steps__content {
+	@include flex-space;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.section-steps__title {
+	text-align: center;
+}
+
+.section-steps__description {
+	text-align: center;
+	max-width: 672px;
+}
+
+.section-steps__grid {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-card {
+	@include flex-space;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.grid-card__img {}
+
+.grid-card__title {
+		font-size: 16px;
+		line-height: 1.5;
+		text-align: center;
+		color: var(--title-color);
+}
+
+.grid-card__description {
+		line-height: 1.5;
+		text-align: center;
+		color: var(--grey);
+}

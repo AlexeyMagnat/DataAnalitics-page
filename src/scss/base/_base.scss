@@ -1,0 +1,67 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--white);
+	color: var(--text-color);
+	font-family: var(--font-main);
+	//text-wrap: balance;
+	@include fluid-text(16, 14);
+	font-weight: 500;
+	line-height: 1;
+}
+
+img {
+	display: block;
+}
+
+a {
+	color: inherit;
+}
+
+code {
+	background-color: #e9f1f6;
+	padding: 0.2rem;
+	border-radius: 4px;
+}
+
+pre.code {
+	overflow-x: auto;
+	background-color: #e9f1f6;
+	padding: 1rem;
+	border-radius: 4px;
+}
+
+/*добавляем плавность изменения*/
+a,
+button,
+input,
+textarea,
+svg * {
+	transition-duration: 0.25s;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 700;
+}
+
+h1 {
+	font-size: clamp(2.625rem, 2.518rem + 0.54vw, 3rem);// @include fluid-text(48, 46); 
+}
+
+h2 {
+	font-size: clamp(1.625rem, 1.518rem + 0.54vw, 2rem);// @include fluid-text(32, 26);
+}
+
+h3 {
+	@include fluid-text(24, 20);
+}
+
+h4 {
+	@include fluid-text(16, 14);
+}

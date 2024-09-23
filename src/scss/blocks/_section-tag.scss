@@ -1,0 +1,27 @@
+.section-tag {
+	border-radius: 20px;
+	padding: 8px 16px;
+	background: var(--tag-bg);
+	height: 40px;
+
+	font-family: var(--font-main);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1;
+	color: var(--primary-purple);
+
+	@include flex-center;
+	display: inline-flex;
+	// gap: 12px;
+
+	& a {
+		text-decoration: underline;
+		text-decoration-skip-ink: none;
+		color: inherit;
+		cursor: pointer;
+		margin-left: 5px;
+	}
+	& svg {
+		margin-right: 12px;
+	}
+}

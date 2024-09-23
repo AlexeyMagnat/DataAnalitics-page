@@ -1,0 +1,20 @@
+.section-title {
+	line-height: 1.25;
+	color: var(--title-color);
+}
+
+.section-description {
+	line-height: 1.5;
+	color: var(--grey);
+	// max-width: 672px;
+}
+
+.section-grid {
+	display: grid;
+	// grid-template-columns: repeat(3, 1fr);
+}
+
+.section-line {
+	width: 100%;
+	border-bottom: 1px solid #dec9fa;
+}

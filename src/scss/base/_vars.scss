@@ -1,0 +1,22 @@
+:root {
+	--container-width: calc(960px + (var(--container-padding) * 2));
+	--container-padding: 15px;
+
+	--font-main: "Metropolis", sans-serif;
+
+	--white: #fff;
+	--primary-purple: #722ed1;
+	--text-color: #000;
+	--title-color: #160637;
+	--grey: #8989a2;
+	--tag-bg: #f7f1ff;
+
+	--laptop-size: 1199px;
+	--tablet-size: 959px;
+	--mobile-size: 599px;
+}
+
+.dark {
+	--page-bg: #252526;
+	--text-color: #fff;
+}
